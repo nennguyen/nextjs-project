@@ -1,12 +1,23 @@
-import '@/app/ui/global.css';
-import { inter } from '@/app/ui/fonts';
+import SideBar from "../components/sidebar/SideBar";
+import "../styles/layout.scss";
+import "../styles/styles.scss";
+import React from "react";
+import StoreProvider from "../components/store/StoreProvider";
 
-export default function RootLayout({children}: {
-  children: React.ReactNode;
-}) {
-  return (
-      <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
-      </html>
-  );
+export default function Layout({children}: { children: React.ReactNode }) {
+    return (
+        <html lang="en">
+            <StoreProvider>
+                <body>
+                    <div className="layout-container">
+                        <div className="sidebar-container">
+                            <SideBar/>
+                        </div>
+
+                        <div>{children}</div>
+                    </div>
+                </body>
+            </StoreProvider>
+        </html>
+    );
 }

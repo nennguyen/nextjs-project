@@ -1,0 +1,26 @@
+.game-list {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 100px;
+  justify-content: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  background: #B0BEC5;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(black, 0.25);
+  border-radius: 5px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+

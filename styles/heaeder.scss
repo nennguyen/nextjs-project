@@ -1,0 +1,32 @@
+.search-input {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  font-size: 14px;
+  outline: transparent solid 2px;
+
+  &::placeholder {
+    color: #9ca3af;
+  }
+}
+
+.search-header {
+  box-shadow: 0 0 4px 0 rgba(black, 0.25);
+  padding: 10px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+
+
+

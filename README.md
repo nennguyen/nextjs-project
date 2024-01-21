@@ -1,5 +1,23 @@
-## Next.js App Router Course - Starter
+# TypeScript Next.js example
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+This is an assignment, created using [create-next-app],
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+# Getting Started
+
+npm run dev
+ or
+yarn dev
+
+# Included in the assignment
+
+Game lobby interface with
+- Home page with default games, search, pagination
+- Sidebar to navigate between lobbies
+- Category game page with only games in the corresponding category, also including search and pagination
+- Loading overlay using Redux
+
+Server-side rendering: Using server components to
+- Loaded default games for Game Pages
+- Loaded game configuration for Sidebar
+
+Responsive design with break point at 768px and SASS file is used

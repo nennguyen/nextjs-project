@@ -1,0 +1,25 @@
+.categories-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-group {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 5px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 5px;
+  color: white;
+}
+
+
+
